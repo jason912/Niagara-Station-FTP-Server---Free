@@ -1,4 +1,71 @@
-GlineFtpServer — Niagara Station Embedded FTP Server
+# Niagara-Station-FTP-Server---Free 🆓
+
+[![Niagara 4.14+](https://img.shields.io/badge/Niagara-4.14%2B-blue)](https://www.tridium.com)
+[![Free to use](https://img.shields.io/badge/Free_to_use-brightgreen)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+> **🆓 A free, built-in FTP server for your Niagara Station — upload, download, and manage files with any standard FTP client.**
+
+---
+
+## What Is It?
+
+GlineFtpServer adds a lightweight FTP server directly inside your Niagara Station. No external software, no extra configuration — just enable it and connect with FileZilla or any FTP client.
+
+---
+
+## Quick Start
+
+```bash
+# 1. Copy glineFtpServer-rt.jar to your modules/ directory
+
+# 2. Restart station
+
+# 3. Open Station Services view → Right-click → New → FtpService
+
+# 4. Set your own FTP Username and FTP Password
+
+# 5. Configure port (default: 2222)
+
+# 6. Connect via FTP client pointing to the station IP, port 2222, PASV mode
+
+# 7. The FTP server is restricted to the station's Files/ directory
+```
+
+You can list, upload, download, delete, rename files and create/remove directories within the `Files/` directory.
+
+> If you set `Enabled = false`, the change requires a station restart to take effect.
+
+---
+
+## Features
+
+| Feature | Support |
+|---------|:-------:|
+| Free to use | ✅ |
+| Standard FTP protocol | ✅ |
+| FileZilla compatible | ✅ Tested |
+| Custom username/password | ✅ Configurable |
+| Port selection | ✅ Configurable (default 2222) |
+| PASV mode | ✅ Required |
+| Station Files/ directory only | ✅ Security boundary |
+
+---
+
+## Pricing
+
+**🆓 Free** — no license required, no trial, no limitations.
+
+---
+
+## Commercial Contact
+
+Need a custom FTP service with extended features? We build custom modules.
+
+- **Email**: [jason.zhang@gline-net.com](mailto:jason.zhang@gline-net.com)
+- **WhatsApp**: [+86 138 0199 0968](https://wa.me/8613801909968)
+
+**Shanghai Gline Net Co., Ltd.** — Your Partner in Smarter Automation
 
 Module: glineFtpServer-rt v1.0.1 | Vendor: Shanghai Gline Net Co. | Platform: Niagara N4.14 / N4.15
 
