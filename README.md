@@ -99,4 +99,19 @@ until restarted.
 
 ### Further Development
 
-For custom development requests, email jason.zhang@gline-net.com 
+For custom development requests, email jason.zhang@gline-net.com
+
+---
+
+## Commercial Support
+
+This module is free of charge under the MIT License (see [LICENSE](LICENSE)).
+
+For production deployments requiring warranty, priority support, or custom
+development, commercial support is available.
+
+- Email: jason.zhang@gline-net.com
+- WhatsApp: +86 138 0199 0968
+- Web: [www.glineweb.com](https://www.glineweb.com)
+
+Shanghai Gline Net Co., Ltd.
